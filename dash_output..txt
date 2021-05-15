@@ -1,0 +1,52 @@
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 20:34:20) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+============ RESTART: G:\Python\Dash\dash_crossfilter_example.py ============
+Dash is running on http://127.0.0.1:8050/
+
+ * Serving Flask app 'dash_crossfilter_example' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: off
+ * Running on http://127.0.0.1:8050/ (Press CTRL+C to quit)
+
+Warning (from warnings module):
+  File "C:\Users\user\AppData\Local\Programs\Python\Python37\lib\site-packages\dash\resources.py", line 72
+    ).format(s["external_url"])
+UserWarning: You have set your config to `serve_locally=True` but A local version of https://codepen.io/chriddyp/pen/bWLwgP.css is not available.
+If you added this file with `app.scripts.append_script` or `app.css.append_css`, use `external_scripts` or `external_stylesheets` instead.
+See https://dash.plot.com/external-resources
+127.0.0.1 - - [15/May/2021 02:12:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:27] "GET /_dash-component-suites/dash_renderer/react@16.v1_9_1m1620799244.14.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:27] "GET /_dash-component-suites/dash_renderer/prop-types@15.v1_9_1m1620799244.7.2.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:27] "GET /_dash-component-suites/dash_renderer/react-dom@16.v1_9_1m1620799244.14.0.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:27] "GET /_dash-component-suites/dash_renderer/dash_renderer.v1_9_1m1620799244.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:28] "GET /_dash-layout HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:28] "GET /_favicon.ico?v=1.20.0 HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:28] "GET /_dash-dependencies HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:28] "GET /_dash-component-suites/dash_core_components/async-dropdown.v1_16_0m1617903285.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:28] "GET /_dash-component-suites/dash_core_components/async-slider.v1_16_0m1617903285.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:29] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:29] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:29] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:31] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:31] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:31] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:31] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:42] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:42] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:53] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:54] "POST /_dash-update-component HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2021 02:12:54] "POST /_dash-update-component HTTP/1.1" 200 -
